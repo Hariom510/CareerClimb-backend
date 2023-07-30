@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000
 const cors  = require("cors");
 
 const corsOptions ={
-    origin:'https://my-application-form.netlify.app',  
+    origin:'https://careerclimb.netlify.app/',  
     // origin:'http://localhost:3000',    
     credentials:true, 
     optionSuccessStatus:200
